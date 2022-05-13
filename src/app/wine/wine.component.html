@@ -1,0 +1,7 @@
+<div class="wine">
+  <img src="{{imageURL}}" alt="{{label}}" />
+  <span *ngIf="isNew" class="new-badge">New!</span>
+  <div *ngIf="inProgress" class="amount-consumed">
+    <progress min="0" max="100" value="{{progress}}"></progress>
+  </div>
+</div>

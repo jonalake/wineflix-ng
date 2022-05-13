@@ -1,0 +1,7 @@
+nav {
+  padding: 0px 48px
+}
+
+img {
+  mask-image: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0));
+}

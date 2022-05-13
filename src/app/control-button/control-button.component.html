@@ -1,0 +1,7 @@
+<li>
+  <button class="{{class}}">
+    <fa-icon *ngIf="class === 'primary-action'" [icon]="faPlay"></fa-icon>
+    <fa-icon *ngIf="class === 'secondary-action'" [icon]="faInfoCircle"></fa-icon>
+    <span>{{text}}</span>
+  </button>
+</li>
