@@ -2,8 +2,6 @@
 
 View deployed site here: https://wineflix-ng.netlify.app/
 
-https://wineflix-ng.netlify.app/
-
 ![Wineflix demo](./wineflix.jpg)
 
 Refactor the HTML and CSS in `src/app/app.component.html` to use components.
